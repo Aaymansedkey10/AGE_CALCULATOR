@@ -1,0 +1,26 @@
+:root{
+    --bg-button: #365b85e1;
+    --bg-button-hover: #2E5077;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-control:focus{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+.btn{
+    background-color: var(--bg-button);
+    border-color: var(--bg-button);  
+
+}
+.btn:hover{
+    background-color: var(--bg-button-hover);
+    border-color: var(--bg-button-hover);
+}
